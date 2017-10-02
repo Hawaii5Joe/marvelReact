@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: dac7f1e0-84ce-4dd0-918e-d27780679514
+  app: gentle-sands-20022
+
